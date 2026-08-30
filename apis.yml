@@ -64,3 +64,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/crowdstrike/
+  name: CrowdStrike
+  x-relationship: acquired
+  x-evidence: "Backed by Insight Partners, Cyberstarts and Battery Ventures (including a $65M Series B), Bionic was acquired by CrowdStrike in 2023 for a reported ~$350M and folded into CrowdStrike Falcon ASPM."
